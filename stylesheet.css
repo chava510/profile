@@ -1,0 +1,95 @@
+body {
+    background-color: #bce5d8;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    background: linear-gradient(#003B46, #C4DFE6);
+    text-align: center;
+}
+
+.header {
+    text-decoration: overline;
+    font-size: 1.1cm;
+    color: #3D82AB;
+    text-align: center;
+}
+
+.content {
+    background-color: #003853;
+    margin: 0 auto;
+    width: 750px;
+    text-align: left;
+    padding: 20px;
+}
+
+.main {
+    font-size: 1.5cm;
+    font-style: italic;
+    color: #91D4C2;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-items {
+    margin: 10px;
+}
+
+a {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bold;
+    background-color: #91D4C2;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #1E646E;
+
+}
+
+.menu {
+    text-align: center;
+}
+
+.nav-items:hover {
+    text-decoration: underline;
+    cursor: crosshair;
+}
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+h1 {
+    color: #87CEEB;
+}
+
+#me {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border-radius: 50%;
+    margin-top: 50px;
+
+}
+
+#linkPC {
+    color: none;
+    background-color: #003853;
+}

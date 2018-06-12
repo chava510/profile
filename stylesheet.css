@@ -89,7 +89,116 @@ h1 {
 
 }
 
-#linkPC {
+.linkPC {
     color: none;
     background-color: #003853;
+}
+
+.linkPC:hover {
+    text-decoration: underline;
+    color: #87CEEB;
+}
+
+.title {
+    text-align: center;
+}
+
+.me {
+    width: 200px;
+}
+
+#image img {
+    width: 100px;
+    width: 26%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    padding: 50px;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+#intro {
+
+    font-size: 20px;
+    color: #87CEEB;
+}
+
+#eastBay {
+    width: 300px;
+    float: left;
+}
+
+.eastBayP {
+    margin-right: 250px;
+}
+
+#universityOregon {
+    width: 200px;
+    float: right;
+}
+
+.collegeTitle {
+    margin-top: 90px;
+}
+
+.UOP {
+
+    margin-left: 250px;
+}
+
+#losAngeles {
+    float: left;
+    width: 200px
+}
+
+.losAngelesP {
+    margin-right: 250px;
+}
+
+img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
 }
